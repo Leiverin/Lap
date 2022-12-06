@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<layout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <data>
+
+    </data>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="8dp"
+        android:background="#F4F4F2"
+        tools:context=".ui.login.LoginActivity">
+
+        <TextView
+            android:layout_width="403dp"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:layout_marginTop="110dp"
+            android:layout_marginBottom="@dimen/_12sdp"
+            android:gravity="center"
+            android:text="@string/sign_up"
+            android:textSize="56dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="32dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/email"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_6sdp"
+                />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_email"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="@string/enter_email"
+                android:backgroundTint="@color/color_text"
+                android:padding="@dimen/_8sdp"
+                android:inputType="textEmailAddress"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/password"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_6sdp"
+                />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_password"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="@string/enter_password"
+                android:backgroundTint="@color/color_text"
+                android:padding="@dimen/_8sdp"
+                android:inputType="textPassword"
+                />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="16dp"
+            >
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="@string/repassword"
+                android:textSize="@dimen/_16sdp"
+                android:textStyle="bold"
+                android:layout_marginLeft="@dimen/_6sdp"
+                />
+            <com.google.android.material.textfield.TextInputEditText
+                android:id="@+id/ed_verify_password"
+                android:layout_height="wrap_content"
+                android:layout_width="match_parent"
+                android:hint="@string/enter_password"
+                android:backgroundTint="@color/color_text"
+                android:padding="@dimen/_8sdp"
+                android:inputType="textPassword"
+                />
+        </LinearLayout>
+
+        <Button
+            android:id="@+id/btn_sign_up"
+            android:background="@drawable/anim_button"
+            android:text="@string/sign_up"
+            android:textAllCaps="false"
+            android:textColor="@color/white"
+            android:layout_marginTop="24dp"
+            android:layout_width="200dp"
+            android:layout_height="60dp"
+            android:layout_gravity="center"
+            />
+    </LinearLayout>
+
+</layout>

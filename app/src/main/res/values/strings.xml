@@ -1,0 +1,22 @@
+<resources>
+    <string name="app_name">Lap</string>
+    <string name="sign_in">Sign in</string>
+    <string name="username">Username</string>
+    <string name="enter_username">Enter your username</string>
+    <string name="password">Password</string>
+    <string name="sign_up">Sign up</string>
+    <string name="repassword">Re-enter password</string>
+    <string name="enter_password">Enter your password</string>
+    <string name="email">Email</string>
+    <string name="enter_email">Enter your email</string>
+    <string name="name">Book name:</string>
+    <string name="enter_name">Enter book name</string>
+    <string name="price">Price:</string>
+    <string name="enter_price">Enter book price</string>
+    <string name="actor">Actor:</string>
+    <string name="enter_actor">Enter book actor</string>
+    <string name="image_url">Url image:</string>
+    <string name="enter_url_image">Enter url image</string>
+    <string name="add">Add</string>
+    <string name="update">Update</string>
+</resources>

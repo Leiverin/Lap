@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "142832411291",
+    "project_id": "mybook-b5c6b",
+    "storage_bucket": "mybook-b5c6b.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:142832411291:android:8ca3ad18305340063e9c3e",
+        "android_client_info": {
+          "package_name": "com.poly.lap"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "142832411291-4mn5ala3dm4cv1nldnpupgvirha7sh1r.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAKX7qdnGz9cyuv90dyOGv3Z5SJQTfKzI8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "142832411291-4mn5ala3dm4cv1nldnpupgvirha7sh1r.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
